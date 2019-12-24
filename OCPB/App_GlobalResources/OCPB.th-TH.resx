@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1_layout" xml:space="preserve">
+    <value>กรุณาลงชื่อเพื่อเข้าใช้งานระบบ หรือ</value>
+  </data>
+  <data name="label1_register" xml:space="preserve">
+    <value>ลงทะเบียน</value>
+  </data>
+  <data name="label_footer" xml:space="preserve">
+    <value>อาคารรัฐประศาสนภักดี ชั้น 5 ศูนย์ราชการเฉลิมพระเกียรติ 80 พรรษา 5 ธันวาคม 2550 ถนนแจ้งวัฒนะ แขวงทุ่งสองห้อง เขตหลักสี่ กรุงเทพมหานคร 10210</value>
+  </data>
+  <data name="label_manual" xml:space="preserve">
+    <value>คู่มือการใช้งานระบบ</value>
+  </data>
+  <data name="label_Signin" xml:space="preserve">
+    <value>ลงชื่อเข้าใช้</value>
+  </data>
+  <data name="Condition_cancel" xml:space="preserve">
+    <value>ยกเลิก</value>
+  </data>
+  <data name="Condition_ok" xml:space="preserve">
+    <value>ยอมรับเงื่อนไข</value>
+  </data>
+  <data name="character_contain" xml:space="preserve">
+    <value>ประกอบด้วยตัวอักษร A-Z,a-z อย่างน้อย 1 ตัวอักษร</value>
+  </data>
+  <data name="character_long" xml:space="preserve">
+    <value>มีความยาวไม่น้อยกว่า 8 ตัวอักษร และไม่เกิน 15 ตัวอักษร</value>
+  </data>
+  <data name="Condition" xml:space="preserve">
+    <value>โดยมีเงื่อนไขในการกำหนดรหัสผ่านใหม่ดังนี้</value>
+  </data>
+  <data name="Condition_Yes" xml:space="preserve">
+    <value>ตกลง</value>
+  </data>
+  <data name="Confirm_NewPass" xml:space="preserve">
+    <value>ยืนยันรหัสผ่านใหม่</value>
+  </data>
+  <data name="Current_Pass" xml:space="preserve">
+    <value>รหัสผ่านปัจจุบัน</value>
+  </data>
+  <data name="DoB" xml:space="preserve">
+    <value>วัน เดือน ปี เกิด</value>
+  </data>
+  <data name="Edit_Password" xml:space="preserve">
+    <value>แก้ไขรหัสผ่าน</value>
+  </data>
+  <data name="Edit_Profile" xml:space="preserve">
+    <value>แก้ไขข้อมูลส่วนตัว</value>
+  </data>
+  <data name="female" xml:space="preserve">
+    <value>หญิง</value>
+  </data>
+  <data name="follow_complaint" xml:space="preserve">
+    <value>ติดตามเรื่องร้องทุกข์</value>
+  </data>
+  <data name="forgot_pass" xml:space="preserve">
+    <value>รับรหัสผ่านใหม่/ลืมรหัสผ่าน</value>
+  </data>
+  <data name="IdentityID" xml:space="preserve">
+    <value>เลขประจำตัวประชาชน</value>
+  </data>
+  <data name="list_complaint" xml:space="preserve">
+    <value>รายการเรื่องร้องทุกข์</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>เข้าสู่ระบบ</value>
+  </data>
+  <data name="logout" xml:space="preserve">
+    <value>ออกจากระบบ</value>
+  </data>
+  <data name="male" xml:space="preserve">
+    <value>ชาย</value>
+  </data>
+  <data name="my_complaint" xml:space="preserve">
+    <value>เรื่องร้องทุกข์ของฉัน</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>ชื่อ</value>
+  </data>
+  <data name="NameTitle" xml:space="preserve">
+    <value>คำนำหน้า</value>
+  </data>
+  <data name="NewPass" xml:space="preserve">
+    <value>รหัสผ่านใหม่</value>
+  </data>
+  <data name="not_support" xml:space="preserve">
+    <value>ไม่รองรับอักขระต่าง ๆ  เช่น +-</value>
+  </data>
+  <data name="number" xml:space="preserve">
+    <value>เลขรับแจ้ง</value>
+  </data>
+  <data name="num_contain" xml:space="preserve">
+    <value>ประกอบด้วยตัวเลข 0-9 อย่างน้อย1 ตัวอักษร</value>
+  </data>
+  <data name="online_complaint" xml:space="preserve">
+    <value>ร้องทุกข์ออนไลน์</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>รหัสผ่าน</value>
+  </data>
+  <data name="product" xml:space="preserve">
+    <value>สินค้า</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>ข้อมูลส่วนตัว</value>
+  </data>
+  <data name="Real_Estate" xml:space="preserve">
+    <value>อสังหาริมทรัพย์</value>
+  </data>
+  <data name="service" xml:space="preserve">
+    <value>บริการ</value>
+  </data>
+  <data name="setting" xml:space="preserve">
+    <value>แผงควบคุมส่วนตัว</value>
+  </data>
+  <data name="Sex" xml:space="preserve">
+    <value>เพศ</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>สถานะภาพเรื่องร้องทุกข์</value>
+  </data>
+  <data name="Surname" xml:space="preserve">
+    <value>นามสกุล</value>
+  </data>
+  <data name="tell_clue" xml:space="preserve">
+    <value>แจ้งเบาะแส</value>
+  </data>
+  <data name="Topic" xml:space="preserve">
+    <value>หัวข้อเรื่องร้องทุกข์</value>
+  </data>
+  <data name="User_manual" xml:space="preserve">
+    <value>คู่มือการใช้งานระบบ</value>
+  </data>
+  <data name="_Username" xml:space="preserve">
+    <value>เลขบัตรประชาชน/พาสปอร์ต</value>
+  </data>
+  <data name="Age" xml:space="preserve">
+    <value>อายุ</value>
+  </data>
+  <data name="Career" xml:space="preserve">
+    <value>อาชีพ</value>
+  </data>
+  <data name="Contact_address" xml:space="preserve">
+    <value>ที่อยุ่ปัจุบัน/ที่สามารถติดต่อได้</value>
+  </data>
+  <data name="Salary" xml:space="preserve">
+    <value>เงินเดือน/รายได้ต่อเดือน</value>
+  </data>
+  <data name="Select_dropdown" xml:space="preserve">
+    <value>-- กรุณาเลือกข้อมูล--</value>
+  </data>
+  <data name="address" xml:space="preserve">
+    <value>ที่อยุ่ปัจุบัน/ที่สามารถติดต่อได้</value>
+  </data>
+  <data name="checkPress" xml:space="preserve">
+    <value>กรุณากดตรวจสอบข้อมูล</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>อำเภอ/เขต</value>
+  </data>
+  <data name="close" xml:space="preserve">
+    <value>ปิด</value>
+  </data>
+  <data name="Confirm_Save" xml:space="preserve">
+    <value>ยืนยันข้อมูล</value>
+  </data>
+  <data name="District" xml:space="preserve">
+    <value>ตำบล/แขวง</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>อีเมล</value>
+  </data>
+  <data name="Foreigner" xml:space="preserve">
+    <value>ชาวต่างชาติ</value>
+  </data>
+  <data name="IdentityID_or_passport" xml:space="preserve">
+    <value>หมายเลขบัตรประชาชน/พาสปอร์ต</value>
+  </data>
+  <data name="Postcode" xml:space="preserve">
+    <value>รหัสไปรษณีย์</value>
+  </data>
+  <data name="Province" xml:space="preserve">
+    <value>จังหวัด</value>
+  </data>
+  <data name="Thai" xml:space="preserve">
+    <value>ชาวไทย</value>
+  </data>
+  <data name="verify" xml:space="preserve">
+    <value>ตรวจสอบ</value>
+  </data>
+  <data name="loginwithPass" xml:space="preserve">
+    <value>ใช้พาสปอร์ต เข้าสู่ระบบ</value>
+  </data>
+  <data name="passport" xml:space="preserve">
+    <value>พาสปอร์ต</value>
+  </data>
+  <data name="PassSendtoEmail" xml:space="preserve">
+    <value>ระบบจะจัดส่งรหัสผ่านไปยัง Email ที่ลงทะเบียนไว้</value>
+  </data>
+  <data name="ResetAnewPass" xml:space="preserve">
+    <value>หากไม่สามารถเข้าใช้งานระบบได้ กรุณาขอรับรหัสผ่านใหม่</value>
+  </data>
+  <data name="CStr" xml:space="preserve">
+    <value>ระบุหมายเลขโทรศัพท์หรือหมายเลขโทรศัพท์</value>
+  </data>
+  <data name="CStrEm" xml:space="preserve">
+    <value>ใช้การติดต่อสื่อสาร/ขอรับข้อมูลกรณีลืมรหัสผ่าน</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>หมายเลขโทรสาร</value>
+  </data>
+  <data name="MobNum" xml:space="preserve">
+    <value>หมายเลขโทรศัพท์มือถือ</value>
+  </data>
+  <data name="Telext" xml:space="preserve">
+    <value>ต่อ</value>
+  </data>
+  <data name="tel_nember" xml:space="preserve">
+    <value>หมายเลขโทรศัพท์</value>
+  </data>
+  <data name="Salarypm" xml:space="preserve">
+    <value>เงินเดือน/รายได้ต่อเดือน</value>
+  </data>
+  <data name="UseIden" xml:space="preserve">
+    <value>ใช้เลขประจำตัวประชาชน เข้าสู่ระบบ</value>
+  </data>
+  <data name="AddressInThai" xml:space="preserve">
+    <value>ที่อยู่ในไทย</value>
+  </data>
+  <data name="CheckID" xml:space="preserve">
+    <value>ตรวจสอบ</value>
+  </data>
+  <data name="Continent" xml:space="preserve">
+    <value>ทวีป</value>
+  </data>
+  <data name="DateComeFrom" xml:space="preserve">
+    <value>วันที่เดินทางมา</value>
+  </data>
+  <data name="DateComeTo" xml:space="preserve">
+    <value>วันที่เดินทางกลับ</value>
+  </data>
+  <data name="Nationality" xml:space="preserve">
+    <value>สัญชาติ</value>
+  </data>
+  <data name="OverseaAddress" xml:space="preserve">
+    <value>ที่อยู่ (ในประเทศของคุณ)</value>
+  </data>
+  <data name="OverseaCity" xml:space="preserve">
+    <value>เมือง</value>
+  </data>
+  <data name="OverseaFaxNo" xml:space="preserve">
+    <value>แฟกซ์</value>
+  </data>
+  <data name="OverseaMobileNo" xml:space="preserve">
+    <value>เบอร์โทรศัพท์มือถือ</value>
+  </data>
+  <data name="OverseaPostcode" xml:space="preserve">
+    <value>รหัสไปรษณีย์</value>
+  </data>
+  <data name="OverseaTelephoneNo" xml:space="preserve">
+    <value>เบอร์โทรศัพท์</value>
+  </data>
+  <data name="PurposeToThai" xml:space="preserve">
+    <value>วัตถุประสงค์ที่มาไทย</value>
+  </data>
+  <data name="TotalDateCome" xml:space="preserve">
+    <value>ระยะเวลาที่อยู่</value>
+  </data>
+</root>
